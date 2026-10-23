@@ -7,7 +7,8 @@ every result.
 **Live demo:** https://llm-eval-lab-sw6tqzo5cyyalzdsjmtpfy.streamlit.app/
 **Demo mode** needs no API key. Its outputs are simulated and labelled as demo everywhere.
 
-![Dashboard](docs/dashboard.png)
+<img width="1920" height="968" alt="llm-eval-lab" src="https://github.com/user-attachments/assets/49f904b6-457d-41eb-b118-7f6071574b53" />
+
 
 ## What it does
 
@@ -138,6 +139,3 @@ tests/                  72 unit tests, no API keys needed
 .github/workflows/      CI runs the tests on every push
 ```
 
-## Tests and CI
-
-The tests use fake providers, so they run without keys. GitHub Actions runs them on every push.
