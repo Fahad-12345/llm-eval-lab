@@ -1,0 +1,26 @@
+# Secrets: never commit keys
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+.env
+api_keys.txt
+*.key
+
+# Local data
+data/eval_history.db
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+KEY_do_not_open_until_labeled.csv
+LABEL_ME_clean.csv
+check_key.py
+list_groq_models.py
+hand_label_check/
